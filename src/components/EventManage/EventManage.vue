@@ -32,6 +32,12 @@
         prop="level"
         label="业主星级"
         width="180">
+        <!-- <el-rate
+          disabled
+          show-score
+          text-color="#ff9900"
+          score-template="3.7">
+        </el-rate> -->
       </el-table-column>
       <el-table-column
         prop="estate_address"
@@ -61,6 +67,9 @@
       <el-table-column
         prop="event_photo"
         label="事件图片">
+        <!-- <template slot-scope="scope">
+          <img :src="scope.row.imgPath" alt="" style="width:100%;height:auto"/>
+        </template> -->
       </el-table-column>
       <el-table-column
         prop="event_state"
@@ -253,7 +262,7 @@ export default {
 
   }
   .EventManage-table {
-    height: 81vh;
+    height: 62.47vh;
     overflow: auto;
   }
 </style>
