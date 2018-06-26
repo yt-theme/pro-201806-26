@@ -3,24 +3,24 @@
     <DataCenterHollowCircle></DataCenterHollowCircle>
     <DataCenterPieCircle></DataCenterPieCircle>
     <DataCenterTable></DataCenterTable>
-    <DataCenterSlider></DataCenterSlider>
-    <DataCenterBroken></DataCenterBroken>
+    <!-- <DataCenterSlider></DataCenterSlider> -->
+    <!-- <DataCenterBroken></DataCenterBroken> -->
   </div>
 </template>
 <script>
 import DataCenterHollowCircle from "./DataCenterHollowCircle.vue"
 import DataCenterPieCircle from './DataCenterPieCircle.vue'
 import DataCenterTable from './DataCenterTable.vue'
-import DataCenterSlider from './DataCenterSlider.vue'
-import DataCenterBroken from './DataCenterBroken.vue'
+// import DataCenterSlider from './DataCenterSlider.vue'
+// import DataCenterBroken from './DataCenterBroken.vue'
 export default {
   name: "DataCenter",
   components: {
     DataCenterHollowCircle,
     DataCenterPieCircle,
     DataCenterTable,
-    DataCenterSlider,
-    DataCenterBroken
+    // DataCenterSlider,
+    // DataCenterBroken
   }
 }
 </script>

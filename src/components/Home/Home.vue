@@ -89,7 +89,7 @@ export default {
 }
 header {
   width: 100vw;
-  height: 170px;
+  height: 19vh;
   background-color: #56b2ff;
 }
 .header-nav> ul {
@@ -107,6 +107,6 @@ header {
 }
 main {
   width: 100vw;
-  height: 100%;
+  height: 81vh;
 }
 </style>
